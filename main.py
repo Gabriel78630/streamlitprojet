@@ -14,7 +14,7 @@ from bokeh.plotting import figure
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-profile_pic = current_dir / "assets" / "profile-pic.png"
+profile_pic = current_dir / "assets" / "profile-pic.PNG"
 
 PAGE_TITLE = "CV | GABRIEL GARCIA"
 PAGE_ICON = "😁"
@@ -105,10 +105,10 @@ st.write("---")
 
 st.subheader("Formations")
 
-st.write(" - 📚 Baccalauréat (Physique, Mathématiques et Informatique)")
-st.write("École de l'ambassade de la Fédération de Russie, Vietnam(Vung Tau) - 09.2016 / 06.2019")
-st.write(" - 📙 Mastère Informatique")
-st.write("Paris Ynov Campus, Nanterre - 09.2020 / 04.2025")
+st.write(" - 📚 Baccalauréat Scientifique")
+st.write("Lycée le Corbusier Poissy")
+st.write(" - 📙 B2 Informatique")
+st.write("Paris Ynov Campus, Nanterre - 09/2022")
 
 # st.write("\n")
 st.write("---")
